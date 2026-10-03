@@ -36,7 +36,11 @@ flowchart TD
         businesscv["businesscv — business CV"]
     end
 
-    fpittelo --> Governance & Health & Trading & SwissAI & IaC & Web
+    subgraph Archived["Archived"]
+        az104["az-104 — Azure Administrator study repo (archived)"]
+    end
+
+    fpittelo --> Governance & Health & Trading & SwissAI & IaC & Web & Archived
 ```
 
 ## Projects
